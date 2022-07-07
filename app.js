@@ -1,3 +1,11 @@
+function moly()  {
+  let person = prompt("i was bored.for date i downloaded insta, reactivated account, story archive, and then i saw 2020 wish story, gift will open at THE day and don't get hyped up  there is literally nothing much special in that ;) ", "not her");
+  if (person === "cheemu") {
+  let person2 = prompt("Love you tho", "okay"); 
+  }
+}
+moly();
+
 (function () {
     const second = 1000,
           minute = second * 60,
