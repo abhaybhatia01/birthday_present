@@ -13,11 +13,14 @@
         nextYear = yyyy + 1,
         dayMonth = "07/08/",
         birthday = dayMonth + yyyy;
+
     
     today = mm + "/" + dd + "/" + yyyy;
     if (today > birthday) {
       birthday = dayMonth + nextYear;
     }
+
+
     //end
     
     const countDown = new Date(birthday).getTime(),
@@ -33,7 +36,7 @@
   
           //do something later when date is reached
           if (distance < 0) {
-            document.getElementById("headline").innerText = "It's my birthday!";
+            document.getElementById("pagestyle").setAttribute("href","style2.css"); 
             document.getElementById("countdown").style.display = "none";
             document.getElementById("content").style.display = "block";
             clearInterval(x);
