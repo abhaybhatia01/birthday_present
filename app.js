@@ -1,5 +1,5 @@
 function moly()  {
-  let person = prompt("i was bored.for date i downloaded insta, reactivated account, story archive, and then i saw 2020 wish story, gift will open at THE day and don't get hyped up  there is literally nothing much special in that ;) ", "not her");
+  let person = prompt("Was learning new skills then got the idea. Don't get hyped up, There is nothing much special in the gift. and will open automatically on the day ;) ", "write here");
   if (person === "cheemu") {
   let person2 = prompt("Love you tho", "okay"); 
   }
