@@ -19,7 +19,7 @@ moly();
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "07/21/",
+        dayMonth = "07/09/",
         birthday = dayMonth + yyyy;
 
     
@@ -46,6 +46,7 @@ moly();
           if (distance < 0) {
             document.getElementById("pagestyle").setAttribute("href","style2.css"); 
             document.getElementById("countdown").style.display = "none";
+            document.getElementById("extra").style.display = "none";
             document.getElementById("content").style.display = "block";
             clearInterval(x);
           }
