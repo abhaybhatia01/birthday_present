@@ -1,10 +1,3 @@
-function moly()  {
-  let person = prompt("Was learning new skills then got this idea. Don't get hyped up, There is nothing much special in the gift. and will open automatically on THE day. Don't feel special, i was bored  ; ) ", "write here");
-  if (person === "cheemu") {
-  let person2 = prompt("Love you tho", "okay"); 
-  }
-}
-moly();
 
 (function () {
     const second = 1000,
