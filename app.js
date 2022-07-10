@@ -1,10 +1,3 @@
-function moly()  {
-  let person = prompt("Was learning new skills then got this idea. Don't get hyped up, There is nothing much special in the gift. and will open automatically on THE day. Don't feel special, i was bored  ; ) ", "write here");
-  if (person === "cheemu") {
-  let person2 = prompt("Love you tho", "okay"); 
-  }
-}
-moly();
 
 (function () {
     const second = 1000,
@@ -19,7 +12,7 @@ moly();
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "07/09/",
+        dayMonth = "07/11/",
         birthday = dayMonth + yyyy;
 
     
@@ -53,3 +46,10 @@ moly();
           //seconds
         }, 0)
     }());
+
+
+    
+
+
+
+    
