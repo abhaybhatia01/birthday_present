@@ -52,13 +52,15 @@
 
 
 
-    window.setInterval(function(){
-      randomColor();
-    }, 1000);
+    // window.setInterval(function(){
+    //   randomColor();
+    // }, 1000);
     
-    function randomColor() {
-      document.querySelector('.emoji').style.background = '#'+ Math.floor(Math.random()*16777215).toString(16);
-    }
+    // function randomColor() {
+    //   document.querySelector('.emoji').style.background = '#'+ Math.floor(Math.random()*16777215).toString(16);
+
+
+    // }
 
 
 

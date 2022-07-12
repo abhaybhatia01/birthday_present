@@ -404,7 +404,7 @@ h1,h2 {
     font-size: 0.5em;
     font-family: 'Montserrat', sans-serif;
   letter-spacing: .125rem;
-  color: white;
+  color:black;
   font-weight: 400;
   position: absolute;
 }
@@ -427,6 +427,9 @@ h2{
 
 }
 
+
+
+
 #video1{
   position: absolute;
   margin-top:25rem;
@@ -448,7 +451,7 @@ h2{
 
 }
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 461px) {
 
   #video1{
     position: absolute;
@@ -457,26 +460,76 @@ h2{
   }
   #video2{
     position: absolute;
-    margin-top:65rem;
+    margin-top:50rem;
   }
   #video3{
     position: absolute;
-    margin-top: 105rem;
+    margin-top: 75rem;
     
   }
   #video4{
     position: absolute;
-    margin-top:145rem;
+    margin-top:100rem;
+  }
+ }
+
+
+  @media only screen and (min-width: 720px) {
+
+    #video1{
+      position: absolute;
+      margin-top: 25rem;
+      
+    }
+    #video2{
+      position: absolute;
+      margin-top:70rem;
+    }
+    #video3{
+      position: absolute;
+      margin-top: 115rem;
+      
+    }
+    #video4{
+      position: absolute;
+      margin-top:160rem;
+    }
+  }
+
+  @media only screen and (min-width: 1512px) {
+
+    #video1{
+      position: absolute;
+      margin-top: 25rem;
+      
+    }
+    #video2{
+      position: absolute;
+      margin-top:90rem;
+    }
+    #video3{
+      position: absolute;
+      margin-top: 160rem;
+      
+    }
+    #video4{
+      position: absolute;
+      margin-top:230rem;
+    }
   }
 
 
- }
+
+
+
+
+
  body{
   background-image: url(/icons/Snapchat-386391854\ \(1\).jpg);
  }
 
 .emoji{
-  background-color: #CF4394;
+  background-color: white;
 }
 
 
