@@ -12,7 +12,7 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "07/11/",
+        dayMonth = "07/12/",
         birthday = dayMonth + yyyy;
 
     
@@ -52,4 +52,10 @@
 
 
 
+    window.setInterval(function(){
+      randomColor();
+    }, 1000);
     
+    function randomColor() {
+      document.body.style.background = '#'+ Math.floor(Math.random()*16777215).toString(16);
+    }

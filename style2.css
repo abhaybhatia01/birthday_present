@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
 
+@import url('https://fonts.googleapis.com/css?family=Anton|Architects+Daughter|Arizonia|Berkshire+Swash|Butterfly+Kids|Cookie|Dr+Sugiyama|Felipa|Herr+Von+Muellerhoff|Indie+Flower|Josefin+Sans|Kaushan+Script|Lobster+Two|Lora|Lovers+Quarrel|Merienda+One|Merriweather|Miss+Fajardose|Molle:400i|Montez|Montserrat|Mr+Bedfort|Mr+De+Haviland|PT+Serif|Parisienne|Petit+Formal+Script|Playfair+Display|Princess+Sofia|Raleway|Redressed|Roboto|Sacramento|Slabo+27px|Tangerine');
+
+
+
 /* html,body {
   width: 100%;
   height: 100%;
@@ -31,7 +35,7 @@ body {
   background: #7b5749;
   border-radius: 10px;
   position: absolute;
-  top: 228px;
+  top: 233px;
   left: 50%;
   margin-left: -2.0px;
   margin-top: -8.33333333px;
@@ -66,7 +70,7 @@ body {
   position: absolute;
   top: -19px;
   left: 50%;
-  margin-left: -3.5px;
+  margin-left: -3px;
   width: 6.66666667px;
   height: 18px;
 }
@@ -91,13 +95,13 @@ body {
 
 @keyframes fuego {
   0%, 100% {
-    background: rgba(250, 116, 116, 0.456);
-    box-shadow: 0 0 40px 10px rgba(253, 219, 161, 0.661);
+    background: rgba(250, 116, 116, 0.568);
+    box-shadow: 0 0 40px 10px rgba(255, 218, 153, 0.333);
     transform: translateY(0) scale(1);
   }
   50% {
     background: rgba(255, 50, 0, 0.1);
-    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.121);
     transform: translateY(-20px) scale(0);
   }
 }
@@ -124,34 +128,6 @@ body {
   letter-spacing: .125rem;
   text-transform: uppercase;
 }
-.top{display:flex;
-  align-items: center;
-  justify-content: center;
-}
-p{
-  position :absolute;
-  top:2%;
-}
-h1 {
-    font-size: 0.5em;
-    font-family: -apple-system, 
-  BlinkMacSystemFont, 
-  "Segoe UI", 
-  Roboto, 
-  Oxygen-Sans, 
-  Ubuntu, 
-  Cantarell, 
-  "Helvetica Neue", 
-  sans-serif;
-  letter-spacing: .125rem;
-  color:white;
-  font-weight: bold;
-
-}
-
-
-
-
 
 
 
@@ -304,13 +280,43 @@ body {
 
 
 
+
+
+
+
+.top{display:flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  position :absolute;
+  top:2%;
+}
+h1,h2 {
+    font-size: 0.5em;
+    font-family: 'Lobster Two', cursive;
+  letter-spacing: .125rem;
+  color: white;
+  font-weight: 400;
+}
+h1{
+  position: absolute;
+  top:5rem;
+}
+
 #gif{
-
-
-  max-width: 414px;
+  /* max-width: 200px;
   position:absolute;
-  top:-450px;
-
+  top:-3rem; */
   z-index:-1;
+  margin:0px 150px;
+  margin-top: 30px;
+  box-shadow:0px 0px 15px 3px  ;
 
 }
+
+/* *{
+  border:2px solid ;
+}  */
+
+
