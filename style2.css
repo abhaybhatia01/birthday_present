@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Anton|Architects+Daughter|Arizonia|Berkshire+Swash|Butterfly+Kids|Cookie|Dr+Sugiyama|Felipa|Herr+Von+Muellerhoff|Indie+Flower|Josefin+Sans|Kaushan+Script|Lobster+Two|Lora|Lovers+Quarrel|Merienda+One|Merriweather|Miss+Fajardose|Molle:400i|Montez|Montserrat|Mr+Bedfort|Mr+De+Haviland|PT+Serif|Parisienne|Petit+Formal+Script|Playfair+Display|Princess+Sofia|Raleway|Redressed|Roboto|Sacramento|Slabo+27px|Tangerine');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&display=swap');
 
 /* html,body {
   width: 100%;
@@ -11,7 +11,7 @@
 } */
 
 body {
-  background: white;
+  background: pink;
   overflow-x: hidden;
   /* background-image:url("/icons/IMG-20210715-WA0027.jpg");
   background-repeat: no-repeat;
@@ -276,6 +276,114 @@ body {
 .text span:last-child{
   margin: 20px;
 }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+.video-button,.video-button2,.video-button3,.video-button4
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  --video-width: 80vw;
+  width: var(--video-width);
+  height: calc(var(--video-width) / 1.77);
+}
+
+.video-button, .video-button2,.video-button3,.video-button4{
+  cursor: pointer;
+  clip-path: polygon(30% 20%, 70% 20%, 70% 80%, 30% 80%);
+  transition: 0.6s cubic-bezier(0.6, 0, 0.4, 1);
+}
+.video-button,.video-button2,.video-button3,.video-button4[data-aperture=open] {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.video-container {
+  overflow: hidden;
+}
+
+.actual-video ,.actual-video2,.actual-video3,.actual-video4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s linear;
+  transform: scale(1);
+}
+[data-aperture=open] .actual-video,.actual-video2,.actual-video3,.actual-video4 {
+  transform: scale(1.2);
+}
+
+.play-button__aperture--left {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0% 0%, 40% 0%, 40% 100%, 0% 100%);
+}
+[data-aperture=open] .play-button__aperture--left {
+  transition-delay: 0s;
+}
+[data-aperture=open] .play-button__aperture--left {
+  clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+}
+
+.play-button__aperture--top-right {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%);
+}
+[data-aperture=open] .play-button__aperture--top-right {
+  transition-delay: 0s;
+}
+[data-aperture=open] .play-button__aperture--top-right {
+  clip-path: polygon(100% 0%, 100% 0%, 100% 0%);
+}
+
+.play-button__aperture--bottom-right {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  transition: 0.5s 0.1s cubic-bezier(0.6, 0, 0.4, 1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 20%);
+}
+[data-aperture=open] .play-button__aperture--bottom-right {
+  transition-delay: 0s;
+}
+[data-aperture=open] .play-button__aperture--bottom-right {
+  clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+}
+
+
+
+
 
 
 
@@ -294,14 +402,19 @@ p{
 }
 h1,h2 {
     font-size: 0.5em;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Montserrat', sans-serif;
   letter-spacing: .125rem;
   color: white;
   font-weight: 400;
+  position: absolute;
 }
 h1{
-  position: absolute;
-  top:5rem;
+
+  font-weight: 900;
+  top:4rem;
+}
+h2{
+  top:6rem;
 }
 
 #gif{
@@ -309,14 +422,71 @@ h1{
   position:absolute;
   top:-3rem; */
   z-index:-1;
-  margin:0px 150px;
-  margin-top: 30px;
+  margin:0px 9rem;
   box-shadow:0px 0px 15px 3px  ;
 
 }
 
+#video1{
+  position: absolute;
+  margin-top:25rem;
+  
+}
+#video2{
+  position: absolute;
+  margin-top:40rem;
+
+}
+#video3{
+  position: absolute;
+  margin-top:55rem;
+
+}
+#video4{
+  position: absolute;
+  margin-top:70rem;
+
+}
+
+ @media only screen and (min-width: 768px) {
+
+  #video1{
+    position: absolute;
+    margin-top: 25rem;
+    
+  }
+  #video2{
+    position: absolute;
+    margin-top:65rem;
+  }
+  #video3{
+    position: absolute;
+    margin-top: 105rem;
+    
+  }
+  #video4{
+    position: absolute;
+    margin-top:145rem;
+  }
+
+
+ }
+ body{
+  background-image: url(/icons/Snapchat-386391854\ \(1\).jpg);
+ }
+
+.emoji{
+  background-color: #CF4394;
+}
+
+
+
+
+
+
+
+
 /* *{
-  border:2px solid ;
+  border:2px solid black ;
+    overflow-x: hidden;
 }  */
-
-
