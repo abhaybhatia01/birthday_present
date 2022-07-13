@@ -510,9 +510,9 @@ h2{
   position:absolute;
   top:-3rem; */
   z-index:-1;
-  margin :0px auto;
+  margin:0px 9rem;
+  box-shadow:0px 0px 15px 3px  ;
 
-  max-width: 250px;
 }
 
 
@@ -540,6 +540,15 @@ h2{
 }
 
 
+.bubbly-button{
+  position: absolute;
+  top:140rem;
+   left:50%;
+   transform: translateX(-50%);
+   box-shadow:0px 0px 50px 10px pink;
+
+
+ }
  .speech{
   box-sizing: border-box;
   position: absolute;
@@ -569,21 +578,10 @@ background-color: rgba(84, 84, 84, 0.37);
   font-size: 1.1rem;
  }
 
- 
-.bubbly-button{
-  position: absolute;
-  top:140rem;
-   left:50%;
-   transform: translateX(-50%);
-   box-shadow:0px 0px 50px 10px pink;
-
-
- }
-
  .freespace{
   position: absolute;
-  top:140rem;
-
+  top:155rem;
+  padding: 5rem 1rem;
 
  }
 
@@ -618,8 +616,8 @@ background-color: rgba(84, 84, 84, 0.37);
    }
    .freespace{
     position: absolute;
-    top:175rem;
-
+    top:190rem;
+    padding: 5rem 1rem;
   
    }
 
@@ -658,8 +656,8 @@ background-color: rgba(84, 84, 84, 0.37);
      }
      .freespace{
       position: absolute;
-      top:260rem;
-
+      top:280rem;
+      padding: 5rem 2rem;
     
      }
   }
@@ -696,7 +694,8 @@ background-color: rgba(84, 84, 84, 0.37);
      }
      .freespace{
       position: absolute;
-      top:320rem;
+      top:325rem;
+      padding: 5rem 1rem;
     
      }
   }
@@ -724,5 +723,5 @@ background-color: rgba(84, 84, 84, 0.37);
 
 /* *{
   border:2px solid black ;
-
+    overflow-x: hidden;
 }  */
