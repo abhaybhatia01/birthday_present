@@ -554,13 +554,13 @@ h2{
   position: absolute;
   top:83rem;
   color:white;
-background-color: rgba(84, 84, 84, 0.37);
+background-color: rgba(79, 79, 79, 0.561);
   margin:5rem 2rem;
   padding: 1.05rem;
   /* text-align: justify; */
   font-family: 'Open Sans', sans-serif;
   border-radius: 1rem;
-  box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.478) inset;
+  box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.464) inset;
 
   /* font-family: -apple-system, 
   BlinkMacSystemFont, 
@@ -699,6 +699,7 @@ background-color: rgba(84, 84, 84, 0.37);
     
      }
   }
+
 
 
 
