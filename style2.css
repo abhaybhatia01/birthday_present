@@ -3,7 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Anton|Architects+Daughter|Arizonia|Berkshire+Swash|Butterfly+Kids|Cookie|Dr+Sugiyama|Felipa|Herr+Von+Muellerhoff|Indie+Flower|Josefin+Sans|Kaushan+Script|Lobster+Two|Lora|Lovers+Quarrel|Merienda+One|Merriweather|Miss+Fajardose|Molle:400i|Montez|Montserrat|Mr+Bedfort|Mr+De+Haviland|PT+Serif|Parisienne|Petit+Formal+Script|Playfair+Display|Princess+Sofia|Raleway|Redressed|Roboto|Sacramento|Slabo+27px|Tangerine');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 /* html,body {
@@ -542,15 +541,17 @@ h2{
 
 .bubbly-button{
   position: absolute;
-  top:130rem;
+  top:125rem;
    left:50%;
    transform: translateX(-50%);
-   box-shadow:0px 0px 50px 10px pink;
+   box-shadow:0px 0px 50px 10px rgba(255, 192, 203, 0.086);
+  font-family: 'Open Sans', sans-serif;
+ font-weight: bold;
 
 
  }
  .speech{
-  box-sizing: border-box;
+ box-sizing: border-box;
   position: absolute;
   top:83rem;
   color:white;
@@ -573,9 +574,37 @@ background-color: rgba(79, 79, 79, 0.561);
   sans-serif; */
   /* text-align: center; */
   font-weight: normal;
-  /* letter-spacing: .01rem; */
+  letter-spacing: .05rem;
   /* text-transform: uppercase; */
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+ }
+ .speech2{
+  box-sizing: border-box;
+  position: absolute;
+  top:138rem;
+  color:white;
+background-color: rgba(79, 79, 79, 0.561);
+  margin:5rem 2rem;
+  padding: 1.05rem;
+  /* text-align: justify; */
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.464) inset;
+
+  /* font-family: -apple-system, 
+  BlinkMacSystemFont, 
+  "Segoe UI", 
+  Roboto, 
+  Oxygen-Sans, 
+  Ubuntu, 
+  Cantarell, 
+  "Helvetica Neue", 
+  sans-serif; */
+  /* text-align: center; */
+  font-weight: normal;
+  /* letter-spacing: .05rem; */
+  /* text-transform: uppercase; */
+  font-size: 0.8rem;
  }
 
  .freespace{
@@ -583,6 +612,10 @@ background-color: rgba(79, 79, 79, 0.561);
   top:155rem;
   padding: 5rem 1rem;
 
+ }
+ #bold{
+  color:rgb(255, 172, 186);
+  text-transform: uppercase;
  }
 
 
@@ -609,6 +642,10 @@ background-color: rgba(79, 79, 79, 0.561);
   .speech{
     position: absolute;
      top:125rem;
+   }
+   .speech2{
+    position: absolute;
+     top:195rem;
    }
    .bubbly-button{
     position: absolute;
@@ -644,12 +681,22 @@ background-color: rgba(79, 79, 79, 0.561);
       position: absolute;
       margin-top:160rem;
     }
-.speech{
+    .speech{
       position: absolute;
        top:205rem;
        font-size:1.5rem;
-       margin:0rem 9rem;
+       margin:0rem 7rem;
+       padding: 2rem 2rem;
      }
+.speech2{
+      position: absolute;
+       top:285rem;
+       font-size:1.5rem;
+
+       margin:0rem 7rem;
+       padding: 2rem 2rem;
+     }
+     
      .bubbly-button{
       position: absolute;
       top:255rem;
@@ -686,7 +733,17 @@ background-color: rgba(79, 79, 79, 0.561);
       position: absolute;
        top:290rem;
        font-size:1.5rem;
-       margin:0rem 9rem;
+       margin:0rem 7rem;
+       padding: 2rem 2rem;
+
+
+     }
+     .speech2{
+      position: absolute;
+       top:305rem;
+       font-size:1.5rem;
+       margin:0rem 7rem;
+       padding: 2rem 2rem;
      }
      .bubbly-button{
       position: absolute;
