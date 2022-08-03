@@ -477,7 +477,9 @@ body {
 
 
 
-
+body{
+  background-image: url(icons/Snapchat-386391854\ \(1\).jpg);
+ }
 
 .top{display:flex;
   align-items: center;
@@ -660,6 +662,9 @@ background-color: rgba(79, 79, 79, 0.85);
     padding: 5rem 1rem;
   
    }
+   body{
+    background-image: linear-gradient(pink,pink);
+   }
 
  }
 
@@ -709,6 +714,9 @@ background-color: rgba(79, 79, 79, 0.85);
       top:280rem;
       padding: 5rem 2rem;
     
+     }
+     body{
+      background-color: pink;
      }
   }
 
@@ -767,9 +775,7 @@ background-color: rgba(79, 79, 79, 0.85);
 
 
 
- body{
-  background-image: url(icons/Snapchat-386391854\ \(1\).jpg);
- }
+
 
 .emoji{
   background-color: white;
